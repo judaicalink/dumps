@@ -1,0 +1,30 @@
+title = "Encyclopedia of Russian Jewry"
+example = "http://data.judaicalink.org/data/rujen/ben-gurion"
+slug = "rujen"
+namespace_slugs = [ "rujen",]
+date = 2020-09-28T06:36:31.140834Z
+[[creators]]
+name = "Kai Eckert"
+url = "http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert"
+
+[[files]]
+filename = "rujen-metadata.ttl.gz"
+filepath = "rujen/rujen-metadata.ttl.gz"
+url = "http://data.judaicalink.org/dumps/rujen/rujen-metadata.ttl.gz"
+description = "Metadata for rujen dataset."
+
+[[files]]
+filename = "rujen.ttl.gz"
+filepath = "rujen/rujen.ttl.gz"
+url = "http://data.judaicalink.org/dumps/rujen/rujen.ttl.gz"
+description = "RDF dump of the rujen dataset."
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
+
+[generator]
+script = "generate_rujen.py"
+gitweb = "https://github.com/wisslab/judaicalink-labs/blob/master/labs/data/management/commands/generate_rujen.py"
+commit = "1ac14f193f827f13a657a7f49dca0c0cf2bd7c25"

@@ -1,0 +1,30 @@
+title = "Liste der Stolpersteine in Mainz"
+example = "https://de.wikipedia.org/wiki/Liste_der_Stolpersteine_in_Mainz-Altstadt"
+slug = "stolpersteine"
+namespace_slugs = [ "stolpersteine",]
+date = 2020-10-06T21:24:00.097195Z
+[[creators]]
+name = "Patricia Kaluza"
+url = "http://wiss.iuk.hdm-stuttgart.de/people/patricia-kaluza/"
+
+[[files]]
+filename = "stolpersteine-metadata.ttl.gz"
+filepath = "stolpersteine/stolpersteine-metadata.ttl.gz"
+url = "http://data.judaicalink.org/dumps/stolpersteine/stolpersteine-metadata.ttl.gz"
+description = "Metadata for stolpersteine dataset."
+
+[[files]]
+filename = "stolpersteine.ttl.gz"
+filepath = "stolpersteine/stolpersteine.ttl.gz"
+url = "http://data.judaicalink.org/dumps/stolpersteine/stolpersteine.ttl.gz"
+description = "RDF dump of the stolpersteine dataset."
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
+
+[generator]
+script = "generate_stolpersteine.py"
+gitweb = "https://github.com/wisslab/judaicalink-labs/blob/master/labs/data/management/commands/generate_stolpersteine.py"
+commit = "4a9e253b35590b5623c2c9212cfcedda8a7e150b"
